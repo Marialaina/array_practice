@@ -104,7 +104,9 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
+const allFoods = foods.join(` -> , `);
 
+// console.log(allFoods);
 
 
 
