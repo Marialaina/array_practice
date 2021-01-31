@@ -89,6 +89,9 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
+// console.log(foods.length);
+const soyIdx = foods.indexOf('tofu');
+// console.log(soyIdx);
 
 
 // console.log('Exercise 8 Result: ', soyIdx);
@@ -100,6 +103,8 @@ Exercise 9:
 */
 
 // Complete Exercise 9 below...
+
+
 
 
 
