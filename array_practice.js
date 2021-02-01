@@ -119,7 +119,20 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
+let hasSoup = true;
 
+const newFood = [];
+
+//With the include method I didn't need to use a boolean. I didn't really know how to use the boolean in this so that's how I included it.
+if ( hasSoup = foods.includes('soup')) {
+  console.log('cool')
+} else {
+  newFood.push('soup')
+}
+console.log(newFood);
+
+   
+  
 
 // console.log('Exercise 10 Result: ', hasSoup);
 
