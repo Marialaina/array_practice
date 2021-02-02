@@ -153,7 +153,7 @@ nums.forEach(nums => {
 
   }
 })
-console.log(odds);
+// console.log(odds);
 
 // Complete Exercise 11 below...
 
@@ -170,6 +170,28 @@ Exercise 12:
 */
 
 // Complete Exercise 12 below...
+
+const fizzBuzz = [];
+const buzz = [];
+const fizz = [];
+
+// console.log(nums);
+nums.forEach(nums => {
+  if (nums % 3  === 0 || nums % 5 === 0){
+      fizzBuzz.push(nums);
+      
+  } else if (nums % 5 === 0) {
+      buzz.push(nums);
+      
+  } else if (nums % 3 === 0){
+    fizz.push(nums);
+    }
+})
+console.log(fizz);
+
+// console.log(fizz);
+// console.log(buzz);
+// console.log(fizzBuzz);
 
 
 
