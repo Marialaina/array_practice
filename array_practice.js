@@ -129,7 +129,7 @@ if ( hasSoup = foods.includes('soup')) {
 } else {
   newFood.push('soup')
 }
-console.log(newFood);
+// console.log(newFood);
 
    
   
@@ -142,7 +142,18 @@ Exercise 11:
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
 
-// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+
+const odds = [];
+
+nums.forEach(nums => {
+  if (nums % 2 !== 0){
+      odds.push(nums);
+  } else {
+
+  }
+})
+console.log(odds);
 
 // Complete Exercise 11 below...
 
