@@ -215,9 +215,9 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
-console.log(numArrays.length);
-const numList = numArrays[3];
-console.log(numList);
+// console.log(numArrays.length);
+const numList = numArrays[numArrays.length - 1];
+// console.log(numList);
 
 
 
