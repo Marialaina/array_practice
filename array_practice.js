@@ -142,17 +142,39 @@ Exercise 11:
   - Hint: Initialize the odds variable to an empty array before the iteration.
 */
 
+// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+
+// const odds = [];
+
+// nums.forEach(nums => {
+//   if (nums % 2 !== 0){
+//       odds.push(nums);
+//   } else {
+
+//   }
+// })
+
+//
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+// const odds = [];
 
-const odds = [];
+// function isEven(){
+//   nums.forEach(num => {
+//     if(num % 2 !== 0){
+//       odds.push(num);
+//     }
+//   })
 
-nums.forEach(nums => {
-  if (nums % 2 !== 0){
-      odds.push(nums);
-  } else {
+// }
+// isEven();
+// console.log(odds);
 
-  }
-})
+
+
+// console.log('Exercise 11 Result: ', odds);
+
+
+
 // console.log(odds);
 
 // Complete Exercise 11 below...
@@ -177,14 +199,14 @@ const fizzBuzz = [];
 
 // console.log(nums);
 
-nums.forEach(nums => {
-  if (nums % 3 === 0 && nums % 5 === 0) {
-    fizzBuzz.push(nums);
+nums.forEach(num => {
+  if (num % 3 === 0 && num % 5 === 0) {
+    fizzBuzz.push(num);
   } 
-  if (nums % 5 === 0) {
+  if (num % 5 === 0) {
     buzz.push(nums);
   }
-  if (nums % 3 === 0) {
+  if (num % 3 === 0) {
     fizz.push(nums);
   }
 })
@@ -216,8 +238,7 @@ const numArrays = [
 // Complete Exercise 13 below...
 
 // console.log(numArrays.length);
-const numList = numArrays[numArrays.length - 1];
-// console.log(numList);
+// const numList = numArrays[numArrays.length - 1]
 
 
 
@@ -230,7 +251,9 @@ Exercise 14:
 */
 
 // Complete Exercise 14 below...
-
+// console.log(numArrays[2][1]);
+const num1 = numArrays[2][1];
+console.log(num1); 
 
 
 // console.log('Exercise 14 Result: ', num);
