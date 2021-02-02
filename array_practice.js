@@ -171,34 +171,34 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
-const fizzBuzz = [];
-const buzz = [];
 const fizz = [];
+const buzz = [];
+const fizzBuzz = [];
 
-// console.log(nums);
+console.log(nums);
+
 nums.forEach(nums => {
-  if (nums % 3  === 0 || nums % 5 === 0){
-      fizzBuzz.push(nums);
-      
-  } else if (nums % 5 === 0) {
-      buzz.push(nums);
-      
-  } else if (nums % 3 === 0){
+  if (nums % 3 === 0 && nums % 5 === 0) {
+    fizzBuzz.push(nums);
+  } 
+  if (nums % 5 === 0) {
+    buzz.push(nums);
+  }
+  if (nums % 3 === 0) {
     fizz.push(nums);
-    }
+  }
 })
-console.log(fizz);
 
-// console.log(fizz);
-// console.log(buzz);
+
 // console.log(fizzBuzz);
-
+// console.log(buzz);
+// console.log(fizz);
 
 
 // console.log('Exercise 12 Results:');
 // console.log('  fizz:', fizz);
 // console.log('  buzz:', buzz);
-// console.log('  fizzbuzz:', fizzbuzz);
+// console.log('  fizzBuzz:', fizzBuzz);
 
 /*
 Exercise 13:
@@ -206,12 +206,12 @@ Exercise 13:
   - Assume you don't know how many nested arrays numArrays contains.
 */
 
-// const numArrays = [
-// 	[100, 5, 23],
-// 	[15, 21, 72, 9],
-// 	[45, 66],
-// 	[7, 81, 90]
-// ];
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
 
 // Complete Exercise 13 below...
 
