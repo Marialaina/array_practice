@@ -175,7 +175,7 @@ const fizz = [];
 const buzz = [];
 const fizzBuzz = [];
 
-console.log(nums);
+// console.log(nums);
 
 nums.forEach(nums => {
   if (nums % 3 === 0 && nums % 5 === 0) {
@@ -214,6 +214,11 @@ const numArrays = [
 ];
 
 // Complete Exercise 13 below...
+
+console.log(numArrays.length);
+const numList = numArrays[3];
+console.log(numList);
+
 
 
 
