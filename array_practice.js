@@ -266,6 +266,27 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
+const numbers = [1, 2, 3]
 
+numbers.forEach(number => {
+  
+})
+
+const garden = ['dirt', 'weed', 'dirt', 'dirt', 'shoe'];
+
+// garden.splice(2, 2);
+// garden.splice(1, 0, 'rose');
+// console.log(garden);
+
+const pokemon = ['pika', 'mew', 'snorlake'];
+
+// for (poke of pokemon) {
+//   console.log(`i have caught ${poke}`);
+// }
+
+for (let index = 0; index < pokemon.length; index ++){
+  console.log('I have caught ' + pokemon[index]);
+}
 
 // console.log('Exercise 15 Result: ', total);
+
