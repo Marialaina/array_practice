@@ -265,53 +265,44 @@ Exercise 15:
 */
 
 // Complete Exercise 15 below...
+// console.log(numArrays);
 
-const numbers = [1, 2, 3]
+const newArr = [];
+numArrays.forEach(num => {newArr.push(num.reduce((a, b) => a + b))})
+const total = newArr.reduce((a, b) => a + b);
+console.log(total);
 
-numbers.forEach(number => {
-  
-})
 
-const garden = ['dirt', 'weed', 'dirt', 'dirt', 'shoe'];
+// console.log(newArr);
+// console.log(total);
 
-// garden.splice(2, 2);
-// garden.splice(1, 0, 'rose');
-// console.log(garden);
 
-const pokemon = ['pika', 'mew', 'snorlake'];
+// console.log(
+//   [1, 2, 3, 4].reduce((a, b) => a + b)
+// )
 
-// for (poke of pokemon) {
-//   console.log(`i have caught ${poke}`);
-// }
+// const arr = [1, 2, 3, 4]
+// const arr3 = [1, 2, 3, 4]
+// const arr2 = [];
 
-// for (let index = 0; index < pokemon.length; index ++){
-//   console.log('I have caught ' + pokemon[index]);
-// }
+// const arr1 = arr.reduce((a, b) => a + b) + arr3.reduce((a, b) => a + b);
 
-// pokemon.forEach ((poke) => {
-//   console.log('I have caught ' + poke)
+// console.log(arr1);
+
+
+
+
+
+
+// const name = [1,2,3]
+
+// name.forEach(num => {
+//   sum += num;
 // })
 
-const arr = [1,2,[3,4,[5,6]], [7,8]];
-// console.log(arr);
-// console.log(arr[2][2][0]);
+// console.log(sum)
 
-// console.log('Exercise 15 Result: ', total);
 
-const newNum = [5, 4, 3, 2, 1]
-newNum.sort();
-// console.log(newNum);
 
-const num2 = [2,3,3,3,4];
-const num3 = num2.slice(1, 4);
-// console.log(num3)
 
-const num4 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7,1,1,1,1,1,1,1,1,1,1,1];
-// console.log(num4.indexOf(7));
-
-const hello = "Hello World";
-// console.log(hello.split(''));
-
-const word = ["s","u","c","c","e","s"];
-console.log(word.join(''));
 
