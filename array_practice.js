@@ -270,7 +270,7 @@ Exercise 15:
 const newArr = [];
 numArrays.forEach(num => {newArr.push(num.reduce((a, b) => a + b))})
 const total = newArr.reduce((a, b) => a + b);
-console.log(total);
+// console.log(total);
 
 
 // console.log(newArr);
