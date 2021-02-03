@@ -253,7 +253,7 @@ Exercise 14:
 // Complete Exercise 14 below...
 // console.log(numArrays[2][1]);
 const num1 = numArrays[2][1];
-console.log(num1); 
+// console.log(num1); 
 
 
 // console.log('Exercise 14 Result: ', num);
@@ -288,9 +288,30 @@ const pokemon = ['pika', 'mew', 'snorlake'];
 //   console.log('I have caught ' + pokemon[index]);
 // }
 
-pokemon.forEach ((poke) => {
-  console.log('I have caught ' + poke)
-})
+// pokemon.forEach ((poke) => {
+//   console.log('I have caught ' + poke)
+// })
+
+const arr = [1,2,[3,4,[5,6]], [7,8]];
+// console.log(arr);
+// console.log(arr[2][2][0]);
 
 // console.log('Exercise 15 Result: ', total);
+
+const newNum = [5, 4, 3, 2, 1]
+newNum.sort();
+// console.log(newNum);
+
+const num2 = [2,3,3,3,4];
+const num3 = num2.slice(1, 4);
+// console.log(num3)
+
+const num4 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7,1,1,1,1,1,1,1,1,1,1,1];
+// console.log(num4.indexOf(7));
+
+const hello = "Hello World";
+// console.log(hello.split(''));
+
+const word = ["s","u","c","c","e","s"];
+console.log(word.join(''));
 
