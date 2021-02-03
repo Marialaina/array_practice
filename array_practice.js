@@ -284,9 +284,13 @@ const pokemon = ['pika', 'mew', 'snorlake'];
 //   console.log(`i have caught ${poke}`);
 // }
 
-for (let index = 0; index < pokemon.length; index ++){
-  console.log('I have caught ' + pokemon[index]);
-}
+// for (let index = 0; index < pokemon.length; index ++){
+//   console.log('I have caught ' + pokemon[index]);
+// }
+
+pokemon.forEach ((poke) => {
+  console.log('I have caught ' + poke)
+})
 
 // console.log('Exercise 15 Result: ', total);
 
